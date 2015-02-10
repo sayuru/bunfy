@@ -38,15 +38,11 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Bloc sizes */
 
+.bloc-xl{
+	padding:200px 0;
+}
 .bloc-lg{
 	padding:100px 0;
-}
-
-
-/* Bloc - Background Effects */
-
-.b-parallax{
-	background-attachment:fixed;
 }
 
 
@@ -116,14 +112,21 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Custom bloc styling */
 
-#main,#bloc-1{
+#bloc-0,#bloc-1{
 	background-color:#ff7f24;
+}
+#bloc-0 h3{
+	line-height: 50px;
+	font-family: Montserrat;
 }
 
 /* Bloc image backgrounds */
 
 .bg-throne-bromide{
-	background-image:url('img/throne_bromide.jpg');
+	background-image:url("img/throne_bromide.jpg");
+}
+.bg-path-overlay{
+	background-image:url("img/path-overlay.png");
 }
 
 /* NavBar */
