@@ -38,6 +38,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Bloc sizes */
 
+.bloc-xl{
+	padding:200px 0;
+}
 .bloc-lg{
 	padding:100px 0;
 }
@@ -123,7 +126,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	background-image:url("img/throne_bromide.jpg");
 }
 .bg-path-overlay{
-	background-image:url('img/path-overlay.png');
+	background-image:url("img/path-overlay.png");
 }
 
 /* NavBar */
