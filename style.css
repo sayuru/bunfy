@@ -14,7 +14,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Globals type styling */
  h1, h2, h3, h4, h5, h6, p, label, .btn, a{
-	font-family:Oleo Script;
+	font-family:Montserrat;
 }
 
 
@@ -41,8 +41,15 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-xl{
 	padding:200px 0;
 }
-.bloc-lg{
-	padding:100px 0;
+.bloc-md{
+	padding:50px 0;
+}
+
+
+/* Bloc - Background Effects */
+
+.b-parallax{
+	background-attachment:fixed;
 }
 
 
@@ -78,55 +85,23 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
-/* Bloc - Light theme */
-
-.l-bloc{
-	color:rgba(0,0,0,.5);
-}
-.l-bloc button:hover{
-	color:rgba(0,0,0,.7);
-}
-.l-bloc h1,.l-bloc h2,.l-bloc h3,.l-bloc h4,.l-bloc h5, .l-bloc h6, .l-bloc .ico{
-	color:rgba(0,0,0,.7);
-}
-.l-bloc .icon-round{
-	border-color:rgba(0,0,0,.7);
-}
-.l-bloc .divider-h span{
-	border-color:rgba(0,0,0,.1);
-}
-.l-bloc a{
-	color:rgba(0,0,0,.6);
-}
-.l-bloc a:hover{
-	color:rgba(0,0,0,1);
-}
-.l-bloc .navbar-toggle .icon-bar{
-	color:rgba(0,0,0,.6);
-}
-.l-bloc .btn-wire, .l-bloc .btn-wire:hover{
-	color:rgba(0,0,0,.7);
-	border-color:rgba(0,0,0,.3);
-}
-
-
 /* Custom bloc styling */
 
-#bloc-0,#bloc-1{
+#main,#footer{
 	background-color:#ff7f24;
 }
-#bloc-0 h3{
+#main h3{
 	line-height: 50px;
 	font-family: Montserrat;
 }
 
 /* Bloc image backgrounds */
 
-.bg-throne-bromide{
-	background-image:url("img/throne_bromide.jpg");
-}
 .bg-path-overlay{
 	background-image:url("img/path-overlay.png");
+}
+.bg-throne-bromide{
+	background-image:url('img/throne_bromide.jpg');
 }
 
 /* NavBar */
@@ -196,6 +171,12 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 }
 
+/* Bric adjustment margins */
+
+.mg-md{
+	margin-top:10px;
+	margin-bottom:20px;
+}
 
 /* Buttons */
 
@@ -213,14 +194,43 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 
 /* Icons */
-.icon-lg{
-	font-size:60px!important;
+.icon-md{
+	font-size:30px!important;
+}
+.icon-round{
+	margin:0 auto;
+	border:2px solid transparent;
+	border-radius: 50%;
+	padding: 32px 30px 26px 30px;
+	min-width:80px;
+}
+.icon-round.icon-md{
+	min-width:92px;
+}
+.icon-round.icon-lg{
+	min-width:122px;
+}
+.icon-round.icon-xl{
+	min-width:162px;
 }
 
 
 
 
 
+/* Empty space fillers - Used on empty blocs to fill them out */
+
+.empty-column,.empty-column.thin{
+	width:100%;
+	height:350px;
+	display:inline-block;
+}
+.empty-column{
+	height:350px;
+}
+.empty-column.thin{
+	height:150px;
+}
 /*iFrame*/
 
 iframe{
