@@ -1,9 +1,9 @@
-::-moz-selection { /* Code for Firefox */
-  background: #A1D36E;
+::selection {
+  background: #2BFDA8;
 }
 
-::selection {
-  background: #A1D36E;
+::-moz-selection { /* Code for Firefox */
+  background: #2BFDA8;
 }
 
 body {
