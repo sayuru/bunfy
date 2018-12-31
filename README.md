@@ -1,3 +1,3 @@
 # Bunfy
 
-Bunfy is now available at https://bunfy.co
+Bunfy is now available at [Bunfy.co](https://bunfy.co)
