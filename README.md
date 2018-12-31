@@ -1,1 +1,3 @@
-# bunfy.github.io
+# Bunfy
+
+Bunfy is now available.
