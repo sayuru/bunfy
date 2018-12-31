@@ -1,9 +1,9 @@
-::selection {
-  background: #2BFDA8;
+::-moz-selection { /* Code for Firefox */
+  background: #A1D36E;
 }
 
-::-moz-selection { /* Code for Firefox */
-  background: #2BFDA8;
+::selection {
+  background: #A1D36E;
 }
 
 body {
@@ -58,4 +58,14 @@ a:after {
 
 .footer a {
 	color: gray;
+}
+
+#rabbit {
+  float: right;
+  padding-right: 10px;
+}
+
+#icon-credits {
+  float: left;
+  padding-left: 10px;
 }
